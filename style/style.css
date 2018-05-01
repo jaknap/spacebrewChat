@@ -22,7 +22,7 @@ body
 
 a, a:link, a:visited { text-decoration: none; }
 
-#inputField{
+.inputField{
   height: 100px; 
   width: 300px; 
   font-size: 30px;
@@ -89,6 +89,9 @@ h1,h2{
 
 .button:visited {
    background-color: rgb(255, 174, 0); 
+   -webkit-transform: translateY(5px);
+      -moz-transform: translateY(5px);
+           transform: translateY(5px);
 }
 /*
 .button:hover {
@@ -97,7 +100,7 @@ h1,h2{
 
 .button:active {
    background-color: rgb(240, 154, 0);
-   -webkit-transform: translateY(10px);
-      -moz-transform: translateY(10px);
-           transform: translateY(10px);
+   -webkit-transform: translateY(5px);
+      -moz-transform: translateY(5px);
+           transform: translateY(5px);
 }
