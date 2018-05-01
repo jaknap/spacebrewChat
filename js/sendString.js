@@ -43,7 +43,7 @@ $(window).on("load", setup);
                 if (sb.name() === app_name) {
                     message += "<br>You can customize this app's name in the query string by adding <strong>name=your_app_name</strong>."
                 }
-                id++;
+                
                 //$("#name").html( message );
             }
             /**
